@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>WebGL Audio Visualizer</title>
+</head>
+<body>
+<div id="recording-info"></div>
+<canvas></canvas>
+<main>
+  <button id="startButton">Start Recording</button>
+  <button id="stopButton" >Stop Recording</button>
+</main>
+<video id="video" width="640" height="480" autoplay muted></video>
+<audio id="audio"></audio>
+<script type="module" src="./scene.js"></script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--  <meta charset="utf-8">-->
+<!--  <title>Video Capture Example</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<video id="three-js-audio" src="./assets/BKKS8SE-bird-unknown-water-bird.mp3" controls></video>-->
+<!--<video id="video" width="640" height="480" src="./assets/Flamingo.glb" controls></video>-->
+<!--<button id="start-recording">Start Recording</button>-->
+<!--<button id="stop-recording">Stop Recording</button>-->
+<!--<script type="module" src="./VideoCapture.js"></script>-->
+<!--<script type="module">-->
+<!--  import { VideoCapture } from './VideoCapture.js';-->
+
+<!--  const threeJSAudio = document.getElementById('three-js-audio');-->
+<!--  const startBtn = document.getElementById('start-recording');-->
+<!--  const stopBtn = document.getElementById('stop-recording');-->
+<!--  const capture = new VideoCapture(threeJSAudio, 640, 480);-->
+<!--  startBtn.onclick = async () => {-->
+<!--    await capture.setup();-->
+<!--  };-->
+<!--  stopBtn.onclick = () => {-->
+<!--    capture.stopRecording();-->
+<!--  };-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
